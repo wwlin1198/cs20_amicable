@@ -47,7 +47,7 @@ function checkAmicable() {
     var num1_sum = addArray(getFactors(num1));
     var num2_sum = addArray(getFactors(num2));
 
-    alert("Factors for " + num1 + ": " + showArray(getFactors(num1)) + "\n  " + 
+    alert("Factors for " + num1 + ": " + showArray(getFactors(num1)) + "\n" + 
           "Factors for " + num2 + ": " + showArray(getFactors(num2)));
     //check if amicable and prints under button
     if (num1 == num2) {
